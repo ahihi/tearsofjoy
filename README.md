@@ -2,7 +2,7 @@
 
 graphical Switch controller emulation
 
-![h](media/tearsofjoy.jpg)
+![demo photo](media/tearsofjoy.jpg)
 
 tearsofjoy is a pygame GUI for [joycontrol](https://github.com/mart1nro/joycontrol). it was built for Raspberry Pi but should work with little effort wherever joycontrol does.
 
