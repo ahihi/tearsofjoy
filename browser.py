@@ -101,4 +101,7 @@ class browser:
         self.ix = max(0, min(len(self.filtered_ixes) - 1, self.ix + delta))
         
     def get_selected_item(self):
-        return self.items[self.filtered_ixes[self.ix]]
+        if self.filtered_ixes:
+            return self.items[self.filtered_ixes[self.ix]]
+        else:
+            return None
