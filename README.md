@@ -15,6 +15,12 @@ features:
 
 install joycontrol according to [their instructions](https://github.com/mart1nro/joycontrol).
 
+install [pygame](https://www.pygame.org/) and [janus](https://github.com/aio-libs/janus) (0.5 is currently incompatible, so specify an earlier version):
+
+```
+pip3 install pygame 'janus<0.5'
+```
+
 clone the tearsofjoy repository:
 
 ```
